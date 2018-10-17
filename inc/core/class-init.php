@@ -1,9 +1,9 @@
 <?php
 
-namespace Nds_Admin_Form_Demo\Inc\Core;
-use Nds_Admin_Form_Demo as NS;
-use Nds_Admin_Form_Demo\Inc\Admin as Admin;
-use Nds_Admin_Form_Demo\Inc\Frontend as Frontend;
+namespace ETH_CF\Inc\Core;
+use ETH_CF as NS;
+use ETH_CF\Inc\Admin as Admin;
+use ETH_CF\Inc\Frontend as Frontend;
 
 /**
  * The core plugin class.

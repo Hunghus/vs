@@ -1,6 +1,6 @@
 <?php
 
-namespace Nds_Admin_Form_Demo\Inc\Core;
+namespace ETH_CF\Inc\Core;
 
 /**
  * Fired during plugin deactivation

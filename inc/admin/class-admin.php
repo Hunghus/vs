@@ -1,6 +1,6 @@
 <?php
 
-namespace Nds_Admin_Form_Demo\Inc\Admin;
+namespace ETH_CF\Inc\Admin;
 
 /**
  * The admin-specific functionality of the plugin.

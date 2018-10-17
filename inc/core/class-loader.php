@@ -1,6 +1,6 @@
 <?php
 
-namespace Nds_Admin_Form_Demo\Inc\Core;
+namespace ETH_CF\Inc\Core;
 
 /**
  * Register all actions and filters for the plugin

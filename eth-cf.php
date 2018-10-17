@@ -9,22 +9,22 @@
  *
  * @link              https://www.nuancedesignstudio.in
  * @since             1.0.0
- * @package           Nds_Admin_Form_Demo
+ * @package           ETH_CF
  *
  * @wordpress-plugin
- * Plugin Name:       NDS Admin Form Demo
- * Plugin URI:        https://www.nuancedesignstudio.in/
- * Description:       A simple plugin to demo the use of forms in the Admin area of WordPress
+ * Plugin Name:       ETH CF
+ * Plugin URI:        
+ * Description:       ETH CF is plugin confirm order and execution Transaction Payment.. 
  * Version:           1.0.0
- * Author:            Karan NA Gupta
- * Author URI:        https://www.nuancedesignstudio.in/
+ * Author:            Hunglv
+ * Author URI:        fb.com/nguoidungaxcd
  * License:           GPL-2.0+
- * License URI:       http://www.gnu.org/licenses/gpl-2.0.txt
- * Text Domain:       nds-admin-form-demo
+ * License URI:       
+ * Text Domain:       
  * Domain Path:       /languages
  */
 
-namespace Nds_Admin_Form_Demo;
+namespace ETH_CF;
 
 // If this file is called directly, abort.
 if ( ! defined( 'WPINC' ) ) {
@@ -37,7 +37,7 @@ if ( ! defined( 'WPINC' ) ) {
 
 define( __NAMESPACE__ . '\NS', __NAMESPACE__ . '\\' );
 
-define( NS . 'PLUGIN_NAME', 'nds-admin-form-demo' );
+define( NS . 'PLUGIN_NAME', 'ETH-CF' );
 
 define( NS . 'PLUGIN_VERSION', '1.0.0' );
 
@@ -47,7 +47,7 @@ define( NS . 'PLUGIN_NAME_URL', plugin_dir_url( __FILE__ ) );
 
 define( NS . 'PLUGIN_BASENAME', plugin_basename( __FILE__ ) );
 
-define( NS . 'PLUGIN_TEXT_DOMAIN', 'nds-admin-form-demo' );
+define( NS . 'PLUGIN_TEXT_DOMAIN', 'eth-cf' );
 
 
 /**
@@ -78,7 +78,7 @@ register_deactivation_hook( __FILE__, array( NS . 'Inc\Core\Deactivator', 'deact
  *
  * @since    1.0.0
  */
-class Nds_Admin_Form_Demo {
+class ETH_CF {
 
 	static $init;
 	/**
@@ -109,13 +109,13 @@ class Nds_Admin_Form_Demo {
  * can interact with the plugin's hooks contained within.
  *
  */
-function nds_admin_form_demo_init() {
-		return Nds_Admin_Form_Demo::init();
+function ETH_CF_init() {
+		return ETH_CF::init();
 }
 
 $min_php = '5.6.0';
 
 // Check the minimum required PHP version and run the plugin.
 if ( version_compare( PHP_VERSION, $min_php, '>=' ) ) {
-		nds_admin_form_demo_init();
+		ETH_CF_init();
 }

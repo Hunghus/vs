@@ -8,8 +8,8 @@
  * @link       https://www.nuancedesignstudio.in
  * @since      1.0.0
  *
- * @package    Nds_Admin_Form_Demo
- * @subpackage Nds_Admin_Form_Demo/inc/frontend/views
+ * @package    ETH_CF
+ * @subpackage ETH_CF/inc/frontend/views
  */
 ?>
 

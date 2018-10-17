@@ -1,6 +1,6 @@
 <?php
 
-namespace Nds_Admin_Form_Demo\Inc\Frontend;
+namespace ETH_CF\Inc\Frontend;
 
 /**
  * The public-facing functionality of the plugin.

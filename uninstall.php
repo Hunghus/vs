@@ -22,7 +22,7 @@
  * @link       https://www.nuancedesignstudio.in
  * @since      1.0.0
  *
- * @package    Nds_Admin_Form_Demo
+ * @package    ETH_CF
  */
 
 // If uninstall not called from WordPress, then exit.

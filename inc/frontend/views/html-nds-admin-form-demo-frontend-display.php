@@ -5,7 +5,7 @@
  *
  * This file is used to markup the public-facing aspects of the plugin.
  *
- * @link       https://www.nuancedesignstudio.in
+ * @link        
  * @since      1.0.0
  *
  * @package    ETH_CF

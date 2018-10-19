@@ -8,7 +8,7 @@ namespace ETH_CF\Inc\Admin;
  * Defines the plugin name, version, and two examples hooks for how to
  * enqueue the admin-specific stylesheet and JavaScript.
  *
- * @link       https://www.nuancedesignstudio.in
+ * @link        
  * @since      1.0.0
  *
  * @author    Karan NA Gupta

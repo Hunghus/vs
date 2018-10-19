@@ -9,7 +9,7 @@ use ETH_CF\Inc\Frontend as Frontend;
  * The core plugin class.
  * Defines internationalization, admin-specific hooks, and public-facing site hooks.
  *
- * @link       https://www.nuancedesignstudio.in
+ * @link        
  * @since      1.0.0
  *
  * @author     Karan NA Gupta

@@ -5,7 +5,7 @@ namespace ETH_CF\Inc\Core;
 /**
  * Register all actions and filters for the plugin
  *
- * @link       https://www.nuancedesignstudio.in
+ * @link        
  * @since      1.0.0
  *
  * @author     Karan NA Gupta

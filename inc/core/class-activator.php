@@ -7,7 +7,7 @@ namespace ETH_CF\Inc\Core;
  *
  * This class defines all code necessary to run during the plugin's activation.
 
- * @link       https://www.nuancedesignstudio.in
+ * @link        
  * @since      1.0.0
  *
  * @author     Karan NA Gupta

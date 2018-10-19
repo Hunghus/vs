@@ -8,7 +8,7 @@ namespace ETH_CF\Inc\Core;
  * Loads and defines the internationalization files for this plugin
  * so that it is ready for translation.
  *
- * @link       https://www.nuancedesignstudio.in
+ * @link        
  * @since      1.0.0
  *
  * @author     Karan NA Gupta

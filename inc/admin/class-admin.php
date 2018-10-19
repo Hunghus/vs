@@ -89,8 +89,8 @@ class Admin {
 	 */
 	public function add_plugin_admin_menu() {
 				
-		add_menu_page(	__( 'Admin Form Demo', $this->plugin_text_domain ), //page title
-						__( 'Admin Form Demo', $this->plugin_text_domain ), //menu title
+		add_menu_page(	__( ' ETH CF', $this->plugin_text_domain ), //page title
+						__( ' ETH CF', $this->plugin_text_domain ), //menu title
 						'manage_options', //capability
 						$this->plugin_name //menu_slug
 					);
@@ -98,8 +98,8 @@ class Admin {
 		 // Add a submenu page and save the returned hook suffix.
 		$html_form_page_hook = add_submenu_page( 
 									$this->plugin_name, //parent slug
-									__( 'Admin Form Demo', $this->plugin_text_domain ), //page title
-									__( 'HTML Form Submit', $this->plugin_text_domain ), //menu title
+									__( ' ETH CF', $this->plugin_text_domain ), //page title
+									__( 'Test (get order)', $this->plugin_text_domain ), //menu title
 									'manage_options', //capability
 									$this->plugin_name, //menu_slug
 									array( $this, 'html_form_page_content' ) //callback for page content
@@ -108,8 +108,8 @@ class Admin {
 		// Add a submenu page and save the returned hook suffix.
 		$ajax_form_page_hook = add_submenu_page( 
 									$this->plugin_name, //parent slug
-									__( 'Admin Form Demo', $this->plugin_text_domain ), //page title
-									__( 'Ajax Form Sumit', $this->plugin_text_domain ), //menu title
+									__( ' ETH CF', $this->plugin_text_domain ), //page title
+									__( 'ETH-CF Manager', $this->plugin_text_domain ), //menu title
 									'manage_options', //capability
 									$this->plugin_name . '-ajax', //menu_slug
 									array( $this, 'ajax_form_page_content' ) //callback for page content
